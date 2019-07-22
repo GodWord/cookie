@@ -443,28 +443,4 @@ def load_cookie(url):
 
 
 if __name__ == '__main__':
-    # ch1 = Chromedp()
-    # ch1.clear_browser_cookies()
-    # ch1.clear_browser_cache()
-    # ch1.open_url('https://account.dianping.com/login?redir=http://www.dianping.com')
-    # ch1.wait_visible('/html/body/div/div[2]/div[5]/span')
-    # ch1.find_element('/html/body/div/div[2]/div[5]/span').click()
-    # ch1.wait_visible('//*[@id="tab-account"]')
-    # ch1.find_element('//*[@id="tab-account"]').click()
-    # ch1.find_element('//*[@id="account-textbox"]').send_keys('13883500424', )
-    # ch1.find_element('//*[@id="password-textbox"]').send_keys('zq13883500424', )
-    # ch1.find_element('//*[@id="login-button-account"]').click()
-    # hk = ch1.find_element('//*[@id="yodaBox"]')
-    # hk.mouse_pressed()
-    # for x in range(70):
-    #     hk.mouse_moved((x + random.randint(0, 3)) * 0.4, random.randint(0, 10) - 5)
-    #     # if x == 25:
-    #     # time.sleep(1)
-    #     time.sleep(random.randint(0, 30) / 1000)
-    # hk.mouse_released()
-    # time.sleep(200)
-    # ch1.quit()
-
-    # load_cookie('http://www.vlotto.kr/gameInfo.do?method=kenoWinNoList')
     load_cookie(sys.argv[1])
-    # print()
